@@ -163,9 +163,9 @@ def game():
         game_started=session.get("game_started", False),
         player_score=session.get("player_score", 0),
         computer_score=session.get("computer_score", 0),
-        player_choice=player_choice,
-        computer_choice=computer_choice,
-        result_message=result_message,
+        player_choice=None,
+        computer_choice=None,
+        result_message=""
     )
 
 
